@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-family: cursive;
+}
+
+/* Main section */
+
+.main-section{
+    display: flex;
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+.main-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.main-left h1{
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-left p{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-social{
+    margin-bottom: 1.5rem;
+}
+.main-social img{
+    width: 30px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.main-btn a{
+    background-color: rgb(62, 143, 243);
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    margin: 10px 10px 10px 10px;
+}
+
+.main-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-right img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 10px 30px 10px 10px;
+}
+
+/* Do section */
+
+.do-section{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 1rem 2rem;
+}
+
+.do-left img{
+    width: 100%;
+}
+
+.do-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.do-right h4{
+    font-size: 2rem;
+}
+
+.do-right p{
+    color: gray;
+    font-size: 1.1rem;
+}
+
+
+
+.do-skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.do-skill img{
+    width: 10%;
+    margin: 1rem;
+    
+}
+
+/* Proficiency section */
+
+.proficiency-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 3rem;
+}
+
+.proficiency-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.proficiency-left h4 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.proficiency-left p {
+    font-size: 16px;
+}
+
+.div-white{
+    height: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(188, 181, 181);
+}
+
+.fron-blank, .back-blank ,.prog-blank{
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(65, 163, 249);
+}
+.fron-blank{
+    width: 80%;
+}
+
+.back-blank{
+    width: 60%;
+}
+.prog-blank{
+    width: 70%;
+}
+
+
+.proficiency-right img{
+    width: 100%;
+}
+
+/* Project section */
+.project-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.project-section h2{
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.project-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project h4{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 380px;
+    height: 250px;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.project a img{
+width: 100%;
+border-radius: 5px;
+transition: transform .5s;
+
+}
+.project a img:hover{
+    transform: scale(1.05);
+
+}
+
+/* Contact-section */
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
+.contact-left{
+    width: 50%;
+}
+
+.contact-left h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.contact-left p{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+}
+
+.contact-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-right img{
+    width: 60%;
+    
+}
+
+footer{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hwb(0 91% 7%);
+}
+
