@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(33, 32, 32);
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+header h1{
+    font-size: 3rem;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 14px;
+    font-family: system-ui;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.main .quote{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 1rem 2rem;
+    font-family: system-ui;
+}
+.main .image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .image img{
+    width: 60%;
+
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.about h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: system-ui;
+}
+.about p{
+    font-family: system-ui;
+    font-size: 14px;
+    text-align: center;
+}
+
+hr{
+    color: white;
+    margin: 1rem 0;
+}
+.by{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.by p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    color: blueviolet;
+    text-transform: uppercase;
+}
