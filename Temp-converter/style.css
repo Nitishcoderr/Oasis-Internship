@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1rem 2rem;
+    height: 10vh;
+    font-family: system-ui;
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    min-height: 90vh;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(68, 146, 148);
+    width: 500px;
+    height: 400px;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    font-family: system-ui;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+input,select,button{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-family: system-ui;
+}
+
+p{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 25px;
+    background-color: rgb(167, 222, 207);
+    color: black;
+    margin: 0.5rem;
+    font-family: system-ui;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit-converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>WhatTemp</nav>
+    <main>
+        <div class="card">
+            <input placeholder="Celsius to Kelvein or fahrenheit... " type="text" autofocus id="mainInput">
+            <select name="temp" id="temp">
+                <option value="select">Select</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+              </select> 
+            <div class="result">
+                Kelvin
+                <p id="kelResult"></p>
+                Fahrenheit
+                <p id="ferResult"></p>
+                <button onclick="myFunction()" id="converter">Convert</button>
+                <button onclick="reset()" id="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
